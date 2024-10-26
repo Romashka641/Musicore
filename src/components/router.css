@@ -1,0 +1,15 @@
+.route {
+   display: inline;
+   --margin: 27%;
+   margin-top: 2%;
+}
+
+.home {
+   float: left;
+   margin-left: var(--margin);
+}
+
+.profile {
+   float: right;
+   margin-right: var(--margin);
+}
