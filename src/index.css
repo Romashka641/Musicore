@@ -1,0 +1,8 @@
+body {
+  max-width: 422px;
+  width: 422px;
+  height: 625px;
+  max-height: 625px;
+  border: 10px solid;
+  border-color: #f19898;
+}
