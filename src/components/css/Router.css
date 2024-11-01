@@ -7,7 +7,7 @@
 .hr {
    margin-top: 120%;
    width: 100%;
-   border: 2px solid currentColor;
+   border-top: 1px solid currentColor;
 }
 
 .home {
