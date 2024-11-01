@@ -7,10 +7,11 @@
 .router {
    width: 101%;
    border-top: 2px solid var(--tg-theme-section-separator-color);
-   position: sticky;
-   margin-left: -1%;
-   margin-top: 123%;
+   position: absolute;
+   left: -1%;
+   top: 89%;
    background-color: var(--tg-theme-bottom-bar-bg-color);
+   padding-bottom: 1%;
 }
 
 .home {
