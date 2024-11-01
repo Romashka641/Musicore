@@ -7,7 +7,6 @@ export default function Router() {
   return (
     <>
       <div className="router">
-         <span className="hr"></span>
          <div className="home route">
             <Link to="/">
               <House className="homeIcon icon" />

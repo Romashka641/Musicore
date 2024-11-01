@@ -1,13 +1,15 @@
 .route {
    display: inline;
    --margin: 27%;
-   margin-top: 2%;
+   margin-top: 3%;
 }
 
-.hr {
-   margin-top: 120%;
-   width: 100%;
-   border-top: 1px solid currentColor;
+.router {
+   width: 101%;
+   border-top: 2px solid #000;
+   position: absolute;
+   left: -1%;
+   top: 88%
 }
 
 .home {
