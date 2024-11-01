@@ -11,6 +11,7 @@
    left: -1%;
    background-color: var(--tg-theme-bottom-bar-bg-color);
    bottom: 0px;
+   height: 12%;
 }
 
 .home {
