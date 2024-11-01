@@ -9,11 +9,11 @@ export default function Router() {
          <hr />
          <div className="home route">
             <Link to="/"></Link>
-            <img src="../public\home.svg" className="homeicon icon" />
+            <img src="../public/home.svg" className="homeicon icon" />
          </div>
          <div className="profile route">
             <Link to="/me"></Link>
-            <img src="../public\circle-user-round.svg" className="profileicon icon" />
+            <img src="../public/circle-user-round.svg" className="profileicon icon" />
          </div>
       </div>
     </>
