@@ -6,7 +6,7 @@ export default function Router() {
   return (
     <>
       <div className="router">
-         <hr />
+         <hr className="hr" />
          <div className="home route">
             <Link to="/"></Link>
             <img src="../public/home.svg" className="homeicon icon" />

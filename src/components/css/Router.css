@@ -1,7 +1,11 @@
 .route {
    display: inline;
    --margin: 27%;
-   margin-top: 90%;
+   margin-top: 2%;
+}
+
+.hr {
+   margin-top: 97%;
 }
 
 .home {
