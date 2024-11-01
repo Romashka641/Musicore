@@ -5,8 +5,9 @@
 }
 
 .hr {
-   margin-top: 90%;
+   margin-top: 120%;
    width: 100%;
+   border: 2px solid currentColor;
 }
 
 .home {
