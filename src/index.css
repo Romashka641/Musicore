@@ -2,4 +2,5 @@ body {
   max-width: 403px;
   width: 403px;
   height: 625px;
+  max-height: 625px;
 }
