@@ -6,10 +6,11 @@
 
 .router {
    width: 101%;
-   border-top: 2px solid #000;
+   border-top: 2px solid var(--tg-theme-section-separator-color);
    position: absolute;
    left: -1%;
-   top: 88%
+   top: 88%;
+   background-color: var(--tg-theme-section-bg-color);
 }
 
 .home {
