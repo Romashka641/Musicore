@@ -9,12 +9,14 @@ export default function Router() {
       <div className="router">
          <hr className="hr" />
          <div className="home route">
-            <Link to="/"></Link>
-            <House className="homeIcon icon" />
+            <Link to="/">
+              <House className="homeIcon icon" />
+            </Link>
          </div>
          <div className="profile route">
-            <Link to="/me"></Link>
-            <CircleUserRound className="profileIcon icon" />
+            <Link to="/me">
+              <CircleUserRound className="profileIcon icon" />
+            </Link>
          </div>
       </div>
     </>
