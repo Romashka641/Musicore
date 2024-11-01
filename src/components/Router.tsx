@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./css/Router.css"
+import { House, CircleUserRound } from 'lucide-react';
 
 export default function Router() {
 
@@ -9,11 +10,11 @@ export default function Router() {
          <hr className="hr" />
          <div className="home route">
             <Link to="/"></Link>
-            <img src="public/home.svg" className="homeicon icon" />
+            <House className="homeIcon icon" />
          </div>
          <div className="profile route">
             <Link to="/me"></Link>
-            <img src="public/circle-user-round.svg" className="profileicon icon" />
+            <CircleUserRound className="profileIcon icon" />
          </div>
       </div>
     </>
