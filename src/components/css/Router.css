@@ -10,7 +10,7 @@
    position: absolute;
    left: -1%;
    top: 88%;
-   background-color: var(--tg-theme-section-bg-color);
+   background-color: var(--tg-theme-bottom-bar-bg-color);
 }
 
 .home {
