@@ -21,8 +21,8 @@ export default function Router() {
          </div>
       </div>
       <Routes>
-        <Route path="/" component={<HomePage />} />
-        <Route path="me" component={<ProfilePage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="me" element={<ProfilePage />} />
       </Routes>
     </>
   )
