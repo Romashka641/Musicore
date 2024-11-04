@@ -2,6 +2,7 @@ import { Link, Routes, Route } from "react-router-dom";
 import "./css/Router.css"
 import { House, CircleUserRound } from 'lucide-react';
 import HomePage from "./pages/Home"
+import ProfilePage from "./pages/Profile"
 
 export default function Router() {
 
@@ -14,14 +15,14 @@ export default function Router() {
             </Link>
          </div>
          <div className="profile route">
-            <Link to="/me">
+            <Link to="me">
               <CircleUserRound className="profileIcon icon" />
             </Link>
          </div>
       </div>
       <Routes>
         <Route path="/" component={<HomePage />} />
-        <Route path="/me" component={<ProfilePage />} />
+        <Route path="me" component={<ProfilePage />} />
       </Routes>
     </>
   )
