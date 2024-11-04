@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, Routes, Route } from "react-router-dom";
 import "./css/Router.css"
 import { House, CircleUserRound } from 'lucide-react';
+import HomePage from "./pages/Home"
 
 export default function Router() {
 
@@ -18,6 +19,10 @@ export default function Router() {
             </Link>
          </div>
       </div>
+      <Routes>
+        <Route path="/" component={<HomePage />} />
+        <Route path="/me" component={<ProfilePage />} />
+      </Routes>
     </>
   )
 }
