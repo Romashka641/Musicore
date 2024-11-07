@@ -4,7 +4,7 @@
 }
 
 .router {
-   width: 101%;
+   width: 420px;
    border-top: 2px solid var(--tg-theme-section-separator-color);
    position: absolute;
    left: -1%;
@@ -28,5 +28,5 @@
    --size: 40px;
    width: var(--size);
    height: var(--size);
-   stroke: var(--tg-theme-button-color);
+   stroke: black;
 }

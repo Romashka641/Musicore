@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 body {
-  max-width: 403px;
-  width: 403px;;
-  max-height: 100%;
-  background-color: var(--tg-theme-bg-color);
+  max-width: 420px;
+  width: 420px;
+  max-height: 559px;
+  background-color: white;
   color: var(--tg-theme-text-color);
   overflow: hidden;
+  font-family: nunito;
 }
+
+
