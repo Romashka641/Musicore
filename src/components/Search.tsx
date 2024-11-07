@@ -33,7 +33,7 @@ export default function Search() {
                <input type="text" name="author" id="author" autoComplete="false" />
             </div>
             <div className="types">
-               <input type="radio" name="type" id="1" className="radio" checked />
+               <input type="radio" name="type" id="1" className="radio" />
                <label htmlFor="1" className="type">Трэк</label>
                <input type="radio" name="type" id="2" className="radio" />
                <label htmlFor="2" className="type">Альбом</label>
