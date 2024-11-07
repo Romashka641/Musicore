@@ -4,7 +4,7 @@
 }
 
 .router {
-   width: 420px;
+   width: 100%;
    border-top: 2px solid var(--tg-theme-section-separator-color);
    position: absolute;
    left: -1%;
