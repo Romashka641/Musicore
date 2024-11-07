@@ -6,10 +6,9 @@
 .router {
    width: 100%;
    border-top: 2px solid var(--tg-theme-section-separator-color);
-   position: absolute;
-   left: -1%;
+   margin-left: -1%;
    background-color: var(--tg-theme-bottom-bar-bg-color);
-   bottom: 0;
+   margin-bottom: 0;
    height: 10%;
    display: inline;
 }
