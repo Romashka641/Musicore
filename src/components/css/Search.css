@@ -38,7 +38,7 @@
 .clear {
    position: absolute;
    top: 33px;
-   left: 350px;
+   left: 85%;
    width: 20px;
    border: none;
    background: url("/public/Cancel.svg");
