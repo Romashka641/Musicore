@@ -47,7 +47,7 @@
 }
 
 .advancedSearch {
-   width: 93.3%;
+   width: 88%;
    position: relative;
    left: 7.1px;
    top: -10px;
@@ -88,7 +88,7 @@ input[type="radio"] + label::before {
 
 .types {
    position: relative;
-   left: 225px;
+   left: 200px;
    top: -17px;
 }
 
