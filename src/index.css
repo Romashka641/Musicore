@@ -9,7 +9,7 @@ body {
   font-family: nunito;
 }
 
-::-webkit-scrollbar {
+html::-webkit-scrollbar {
   display: none;
 }
 
