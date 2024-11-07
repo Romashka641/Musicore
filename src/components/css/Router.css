@@ -12,6 +12,7 @@
    bottom: 0;
    height: 10%;
    display: inline;
+   z-index: -2;
 }
 
 .home {
