@@ -9,14 +9,14 @@
 
 .searchIcon {
    position: absolute;
-   left: 23px;
+   left: 20px;
    top: 33px;
 }
 
 .search {
    position: relative;
    height: 30px;
-   width: 358px;
+   width: 85%;
    border-radius: 10px;
    left: 5px;
    top: 17px;
