@@ -1,47 +1,43 @@
 import { useState } from "react"
 import "./css/Search.css"
+import $ from 'jquery'
+/* import { useSearchParams } from "react-router-dom" */
 
 export default function Search() {
 
    const [FormFocus, setFormFocus] = useState(0)
+   const [search, setSearch] = useState("")
+
+   if (FormFocus == 0) {
+      $(".hideSearchForm").css("display", "none")
+   } else {
+      $(".hideSearchForm").css("display", "block")
+   }
+   /* const [params] = useSearchParams() */
+
+   /* if (params.get("q") != "") {
+      setSearch(String(params.get("q")))
+   } */
 
   return (
     <div>
       <button className="hideSearchForm" onClick={() => setFormFocus(0)}></button>
-      <form className="searchForm" onClick={() => setFormFocus(1)}>
+      <div className="searchForm" onClick={() => setFormFocus(1)}>
          <style>
             {`
                .searchForm::before {
                   opacity: ${FormFocus}
                }
-
-               .advancedSearch {
-                  transform: scaleY(${FormFocus})
-               }
             `}
          </style>
-         <form className="mainSearch">
-            <input type="text" name="search" className="search" placeholder="Введите текст..." autoComplete="false" />
+         <form className="mainSearch" action="results">
+            <input type="text" name="q" className="search" placeholder="Введите текст..." value={search} onChange={(e) => setSearch(e.target.value)} />
             <input type="reset" className="clear" />
+            <span className="searchIcon">
+               <input type="submit" value="" id="searchSubmit" />
+            </span>
          </form>
-         <span className="searchIcon">
-            <input type="submit" value="" id="searchSubmit" />
-         </span>
-         <div className="advancedSearch">
-            <div className="from-author">
-               <label htmlFor="author" id="authorLabel">От автора</label>
-               <input type="text" name="author" id="author" autoComplete="false" />
-            </div>
-            <div className="types">
-               <input type="radio" name="type" id="1" className="radio" />
-               <label htmlFor="1" className="type">Трэк</label>
-               <input type="radio" name="type" id="2" className="radio" />
-               <label htmlFor="2" className="type">Альбом</label>
-               <input type="radio" name="type" id="3" className="radio" />
-               <label htmlFor="3" className="type">Исполнитель</label>
-            </div>
-         </div>
-      </form>
+      </div>
       <div className="queries">
          {
             localStorage.getItem("queries")
